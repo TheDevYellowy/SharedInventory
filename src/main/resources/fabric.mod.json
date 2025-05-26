@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "sharedinventory",
+  "version": "${version}",
+  "name": "SharedInventory",
+  "description": "A mod that allows players to switch between different characters",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/sharedinventory/icon.png",
+  "environment": "*",
+  "mixins": [
+    "sharedinventory.mixins.json"
+  ],
+  "entrypoints": {
+    "main": [
+      "com.yellowy.sharedinventory.Sharedinventory"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

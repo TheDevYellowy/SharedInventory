@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.yellowy.sharedinventory.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinHungerManager",
+    "MixinLivingEntity",
+    "MixinPlayerInventory"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
